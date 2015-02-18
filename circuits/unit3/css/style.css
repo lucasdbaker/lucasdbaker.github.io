@@ -4,8 +4,9 @@ font-size: 20px;
 text-align: center;
 font-family: helvetica, sans-serif;
 }
-h1{font-family: georgia;
+h1{font-family: "old style", serif;
 	font-weight: 700;
+	letter-spacing: 2px;
 	margin: 10px;
 
 }
