@@ -1,0 +1,16 @@
+body{color: #2D76FF;
+background-color: #000000;
+font-size: 20px;
+text-align: center;
+border: 3px solid #3BC5E8;
+
+}
+h1{font-weight: 700;
+margin: 10px;
+
+}
+#slogan{text-style: italic;
+text-decoration: underline;
+padding: 5px 10px;
+
+}
