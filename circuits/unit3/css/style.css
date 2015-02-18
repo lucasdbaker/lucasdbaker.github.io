@@ -2,8 +2,7 @@ body{color: #2D76FF;
 background-color: #000000;
 font-size: 20px;
 text-align: center;
-border: 3px solid #3BC5E8;
-
+font-family: helvetica, sans-serif;
 }
 h1{font-weight: 700;
 margin: 10px;
@@ -14,6 +13,8 @@ text-decoration: underline;
 padding: 5px 10px;
 
 }
-ul{text-align: left;
+#description{margin: 0px 100px;
 
+}
+#contact{color: #ffffff;
 }
