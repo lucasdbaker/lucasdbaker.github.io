@@ -1,5 +1,5 @@
 body{color: #2D76FF;
-background-color: #000000;
+background-color: #ffffff;
 font-size: 20px;
 text-align: center;
 font-family: helvetica, sans-serif;
@@ -9,7 +9,7 @@ h1{font-family: georgia;
 	margin: 10px;
 
 }
-#slogan{text-style: italic;
+#slogan{font-style: italic;
 text-decoration: underline;
 padding: 5px 10px;
 
@@ -19,7 +19,7 @@ padding: 5px 10px;
 
 }
 
-a{color: #ffffff;
+a{color: #000000;
 
 }
  ul{text-transform: uppercase;
