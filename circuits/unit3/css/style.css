@@ -4,8 +4,9 @@ font-size: 20px;
 text-align: center;
 font-family: helvetica, sans-serif;
 }
-h1{font-weight: 700;
-margin: 10px;
+h1{font-family: georgia;
+	font-weight: 700;
+	margin: 10px;
 
 }
 #slogan{text-style: italic;
@@ -13,7 +14,7 @@ text-decoration: underline;
 padding: 5px 10px;
 
 }
-#description{margin: 0px 100px;
+#description{margin: 0px 500px;
 
 
 }
