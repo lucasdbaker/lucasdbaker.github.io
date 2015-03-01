@@ -8,6 +8,7 @@ h1{font-family: "palatino linotype", serif;
 	font-weight: 700;
 	letter-spacing: 2px;
 	margin: 10px;
+	text-transform: uppercase;
 
 }
 #slogan{font-style: italic;
