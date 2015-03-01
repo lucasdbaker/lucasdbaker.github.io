@@ -20,9 +20,12 @@ padding: 5px 10px;
 a{color: #000000;
 
 }
- ul{text-transform: uppercase;
+ ul{
+ 	text-transform: uppercase;
+ 	list-style: none;
  }
 
  div{
- 	width:60%;
+ 	width:600px;
+ 	text-align: center;
  }
