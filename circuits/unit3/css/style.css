@@ -25,3 +25,7 @@ a{color: #000000;
 }
  ul{text-transform: uppercase;
  }
+
+ div{
+ 	width:60%;
+ }
