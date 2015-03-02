@@ -11,16 +11,19 @@ h1{
 
 }
 
-#slogan{font-style: italic;
-text-decoration: underline;
-padding: 5px 10px;
+#slogan{
+	font-style: italic;
+	padding: 20px 10px;
+	border-bottom: solid;
+	border-width: 1px;
 
 }
  #description{
  	width:708px;
  	text-align: center;
  	line-height: 1.68em;
- 	margin:auto-center;
+ 	margin:auto;
+ 	margin:100px auto;
  }
 
 
