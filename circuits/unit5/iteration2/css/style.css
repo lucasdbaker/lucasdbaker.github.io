@@ -9,64 +9,109 @@ html{
 	background-size: cover;
 	font-family: 'Playfair Display', serif;
 	margin: 0 auto;
-	height: 100vh;
 
 
 	
 }
 
+header{
+  position: fixed;
+  width: 100%;
+
+}
 
 div{
-	margin: 10% auto;
-	background: rgba(255,255,255,.5);
+	margin:10px auto;
+	background: rgba(115,99,84,.5);
 	width: 960px;
-	height: 400px;
+	height: 160px;
 	border-radius: 7px;
 
+
 }
 
-img{
-	width: 200px
+ul{
+  list-style: none;
 }
+
+
 
 nav{
-	list-style: none;
 	margin:0 auto;
 	text-align: center;
-	width: 960px;
-	float:right;
+  font-size: 14pt;
+  bottom: 0;
+  right: 0;
+
 }
 
 a{
 	text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
 	color:#fff;
+  float: right;
+  padding: 15px;
+  margin: 0;
+  bottom: 5px;
+}
+
+h1{
+  font-size: 20pt;
+  padding: 15px 400px 50px 20px;
+  color: #fff;
+  text-align: right;
+  font-family: "Lato",sans-serif;
+  font-style: italic;
+}
+
+h3{
+  font-size:16pt;
+  padding: 10px 400px 10px 0;
+  color: #fff;
+  text-align: right;
+}
+
+p{
+  padding: 10px 400px 10px 0;
+  line-height: 1.5em;
+  color: #fff;
+  text-align: right;
+  font-family: "Lato", sans-serif;
+  font-size: 12pt;
+
+}
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content:" ";
+  clear: both;
+  height: 0;
 }
 
 
 .wrapper{
-  width: 325px;
-  height: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -162px;
-  margin-top: -25px;
+  width: 500px;
+  height: 75px;
+  background: none;
 }
 
 .icon{
   display: inline-block;
+  float: none;
   position: relative;
-  color: #bdbdbd;
+  color: #fff;
   width: 50px;
   height: 50px;
   text-align: center;
   font-size: 1.47em;
+  font-style: normal;
   line-height: 2em;
-  background-color: #fff;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  box-shadow: 0px 3px 0px #bdbdbd, 0px 3px 10px #bababa;
   -webkit-transition:background-color 250ms ease 0s;
   transition:background-color 250ms ease 0s;
 }
@@ -80,16 +125,89 @@ a{
 .flickr:hover{background-color: #c257ad;}
 .email:hover{background-color: #d5b120;}
 
-a{
-  text-decoration: none;
-}
-
 .icon:hover{
   color: #fff;
-  box-shadow: 0px 3px 0px #686868, 0px 3px 10px #7e7e7e;
 }
 
 .icon:active{
-  box-shadow: inset 0px 1px 4px #3d3d3d, 0px 0px 0px #bdbdbd;
   top: 3px;
+}
+
+#navbar{
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(115,99,84,.5);
+}
+
+#signup{
+  border-left: 1px solid white;
+
+}
+
+#blog{
+  border-left: 1px solid white;
+}
+
+#search{
+  border-left: 1px solid white;
+}
+
+#browse{
+  border-left: 1px solid white;
+}
+
+#signup:hover{
+  background: rgba(255,255,255,.5);
+}
+
+#blog:hover{
+  background: rgba(255,255,255,.5);
+}
+
+#search:hover{
+  background: rgba(255,255,255,.5);
+}
+
+#browse:hover{
+  background: rgba(255,255,255,.5);
+}
+
+#featured:hover{
+  background: rgba(255,255,255,.5);
+}
+
+#mixed{
+  width: 300px;
+  padding: 30px;
+  float: left;
+
+}
+
+#ingredients{
+  padding: 30px 400px 30px 0;
+  line-height: 1.5em;
+  color: #fff;
+  text-align: right;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+
+
+}
+
+#feat_wrapper{
+  height: 430px;
+  padding-top: 160px;
+
+}
+
+#container{
+  height: 430px;
+}
+
+#pandar{
+  float: right;
+  margin: 15px;
+  border-radius: 7px;
+  height: 400px;
+
 }
