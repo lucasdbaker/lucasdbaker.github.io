@@ -38,7 +38,7 @@ ul{
 li{
 	list-style: none;
   	padding: 15px 5px;
-  	margin:0 5px;
+  	margin:0 0 0 26px;
   	text-align: center;
   	border-radius: 5px;
   	font-size: 14pt;
@@ -59,4 +59,8 @@ a{
 	color:#fff;
 	width:210px;
 	display:block;
+}
+
+#cocktail{
+	margin:0;
 }
