@@ -1,49 +1,55 @@
 html{
-	background: url("images/twistblurlight.jpg") no-repeat center center fixed;
-	background-size: cover;
 	font-family: 'Playfair Display', serif;
 	margin: 0 auto;
 	height: 100vh;
-
-
 	
 }
 
 
 div{
-	margin: 10% auto;
+	margin: 5% auto;
 	background: rgba(255,255,255,.5);
-	width: 960px;
-	height: 400px;
+	width: 50%;
+	height: 60%;
 	border-radius: 7px;
+	min-width: 864px;
+	min-height: 288px;
+	overflow: auto;
 
 }
 
 img{
-	padding:56px 48px;
+/*	margin:0 auto;
+	padding: 3%;
+	width: 94%;
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);*/
 }
 
 nav{
 	margin:0 auto;
+	padding-top: 2%;
 	text-align: center;
-	width: 960px;
-	height: 60px;
+	width: 100%;
+	height: 10%;
 }
 
 ul{
 	margin:0 auto;
-	height: 60px;
+	height: 100%;
+	width: 50%
 }
 
 li{
 	list-style: none;
-  	padding: 15px 5px;
-  	margin:0 0 0 26px;
+  	padding: 1.5% 0;
+  	margin:0 2%;
   	text-align: center;
   	border-radius: 5px;
-  	font-size: 14pt;
+  	font-size: 1.2em;
   	box-shadow: 0 0 0 1px rgba(255,255,255,.5);
-  	width: 210px;
+  	width: 22%;
   	float: left;
 
 }
@@ -55,12 +61,98 @@ li:hover{
 }
 
 a{
+	font-family:'Open Sans Condensed', sans-serif;
 	text-decoration: none;
 	color:#fff;
-	width:210px;
+	width:100%;
 	display:block;
 }
 
+h1{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 2em;
+	letter-spacing: .02em;
+	color: #625854;
+	margin:3% 0 0 3%;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5em;
+	color: #625854;
+	margin:3% 0 0 3%;
+}
+
+p{
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	color: #625854;
+	margin:3% 0 0 3%;
+	line-height: 1.6em;
+}
+
+.clearfix:after{
+	visibility: hidden;
+  display: block;
+  font-size: 0;
+  content:" ";
+  clear: both;
+  height: 0;
+}
+
+#splash{
+	margin:0 auto;
+	width: 100vw;
+	height: 90vh;
+	background: url("images/twistblurlight.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+#feat_cocktail{
+	padding: 0;
+	margin: 0;
+	height: 90vh;
+	width: 100vw;
+	overflow: auto;
+}
+
+#articles{
+	padding: 0;
+	margin: 0;
+	height: 90vh;
+	width: 100vw;
+	overflow: auto;
+	background: url("images/citydrinks.png") no-repeat center center fixed;
+	background-size: cover;
+}
+
 #cocktail{
-	margin:0;
+	margin-left:0;
+}
+
+#sign_up{
+	margin-right: 0
+}
+
+#logo{
+	margin:0 auto;
+	padding: 0 7%;
+	width: 86%;
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+}
+
+#millionaire{
+	float: left;
+	border-radius: 5px;
+	margin: 3% 3% 0 0;
+}
+
+#recipe{
+	font-family:'Open Sans Condensed', sans-serif;
+	text-align: right;
+	font-size: 1.2em;
+	line-height: 1em;
 }
