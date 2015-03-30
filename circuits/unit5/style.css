@@ -10,7 +10,7 @@ div{
 	margin: 5% auto;
 	background: rgba(255,255,255,.5);
 	width: 50%;
-	height: 60%;
+	height: 90%;
 	border-radius: 7px;
 	min-width: 864px;
 	min-height: 288px;
@@ -109,12 +109,32 @@ p{
 	background-size: cover;
 }
 
+#logo_wrapper{
+	margin: 5% auto;
+	background: rgba(255,255,255,.5);
+	width: 50%;
+	height: 60%;
+	border-radius: 7px;
+	min-width: 864px;
+	min-height: 288px;
+	overflow: auto;
+}
+
+#feat_wrapper{
+	height: 95%;
+	margin:5% auto auto auto;
+}
+
+#articles_wrapper{
+	height: 80%;
+	margin:5% auto auto auto;
+}
+
 #feat_cocktail{
 	padding: 0;
 	margin: 0;
 	height: 90vh;
 	width: 100vw;
-	overflow: auto;
 }
 
 #articles{
