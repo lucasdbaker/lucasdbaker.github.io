@@ -32,6 +32,7 @@ footer{
 
 .buttons{
 	float: left;
+	min-width: 300px;
 }
 
 .nav_image{
@@ -69,5 +70,21 @@ footer{
 	width:20%;
 	margin-left: 2%;
 	margin-right: 4%;
+}
+
+@media only screen and (max-width: 1500px){
+	.buttons{
+		width: 40%;
+	}
+
+	#about, #gallery{
+		margin-left: 8%;
+		margin-right: 4%;
+	}
+
+	#produce, #contact{
+		margin-left: 4%;
+		margin-right: 8%;
+	}
 }
 
