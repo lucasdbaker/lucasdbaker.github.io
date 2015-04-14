@@ -2,14 +2,21 @@ body{
 	font-size: 14px;
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
-	background: url(../images/hoppoles_large.jpg) no-repeat center top fixed;
+	background-color: #fff;
+	/*background: url(../images/hoppoles_large.jpg) no-repeat center top fixed;*/
+}
+
+header{
+	height: 500px;
+	width: 100%;
+	background-color: #0D3D2B;
 }
 
 nav{
-	width: 100%;
+	width: 90%;
 	height: auto;
-	position: absolute;
-	margin-top: 18em;
+	position: relative;
+	margin: -10em auto;
 }
 
 h2{
@@ -18,20 +25,30 @@ h2{
 	position: absolute;
 	top: 5%;
 	padding: 1%;
-	/*left: 2%;*/
+	left: 2%;
 }
 
 a{
+	display: block;
+	position: relative;
 	text-decoration: none;
 	color: #2BC98F;
 }
 
 footer{
 	clear: both;
+	position: absolute;
+	bottom: 0;
+}
+
+ul{
+	width: 100%;
 }
 
 .buttons{
 	float: left;
+	width: 23%;
+	margin: 1%;
 	min-width: 300px;
 }
 
@@ -48,9 +65,9 @@ footer{
      height: 0;
 }
 
-#about{
-	width: 20%;
-	margin-left: 4%;
+/*#about{
+	width: 20%;*/
+	/*margin-left: 4%;
 	margin-right: 2%;
 	
 }
@@ -70,11 +87,17 @@ footer{
 	width:20%;
 	margin-left: 2%;
 	margin-right: 4%;
-}
+}*/
 
 @media only screen and (max-width: 1500px){
+
+	nav{
+		width: 60%;
+}
+
 	.buttons{
-		width: 40%;
+		width: 48%;
+		margin: 1%;
 	}
 
 	#about, #gallery{
