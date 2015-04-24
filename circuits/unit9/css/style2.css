@@ -55,10 +55,20 @@ ul{
     position: relative;
     min-height: 100px; /* This part sucks */
     clear: both;
-    margin: 25px 0 60px 0;
+    /*margin: 25px 0 60px 0;*/
+    border: 1px solid #fff;
 }
+
+.column{
+	  margin: 0 1%;
+	  width: 23%;
+	  border: 1px solid #fff;
+	  float: left;
+}
+
 .tab {
     float: left;
+  
 }
 .tab label {
     background: #eee;
@@ -71,26 +81,31 @@ ul{
     margin-left: -1px;
     position: relative;
     left: 1px;
-}
+/*}
 .tab label i {
     font-style: normal;
     font-size: 10px;
-    color: #aaa;
+    color: #aaa;*/
 }
 .tab [type=radio] {
     display: none;
 }
+
+.navimages{
+	width: 100%;
+}
+
 .content {
-    position: absolute;
-    top: 40px;
+    position: relative;
+    bottom: -40px;
     opacity: 0;
     left: 0;
     background: white;
     right: 0;
-    bottom: 0;
     padding: 0px 20px;
     border: 1px solid #ccc;
     height: 0;
+    width: 100%;
     
 -webkit-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
    -moz-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940); 
@@ -107,12 +122,14 @@ ul{
     opacity: 1;
     height: 100%;
     padding: 20px;
+    /*width: 100%;*/
 }
 
 #close-tab {
     position: absolute;
     z-index: -1;
     top: 0px;
+    /*display:none;*/
 }
 
 #close-tab label {
